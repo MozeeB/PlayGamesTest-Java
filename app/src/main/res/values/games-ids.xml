@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Google Play game services IDs. Save this file as res/values/games-ids.xml in your project.-->
+<resources>
+    <!--app_id-->
+    <string name="app_id" translatable="false">357466661153</string>
+    <!--package_name-->
+    <string name="package_name" translatable="false">com.cikup.logingoogleplayservicegame</string>
+    <!--achievement Yey! Start Game-->
+    <string name="achievement_yey_start_game" translatable="false">CgkIocKx1bMKEAIQAQ</string>
+    <!--event LoginEvent-->
+    <string name="event_loginevent" translatable="false">CgkIocKx1bMKEAIQAw</string>
+    <!--leaderboard GPGS Knight-->
+    <string name="leaderboard_gpgs_knight" translatable="false">CgkIocKx1bMKEAIQAg</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:id="@+id/beforeLoginLL"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="20dp"
+       android:gravity="center"
+       android:visibility="visible">
+
+       <Button
+           android:id="@+id/loginBtn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Login"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/afterLoginLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi, User"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/playerIDTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player ID: "
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/userCenterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Center"/>
+
+        <Button
+            android:id="@+id/logOutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LogOut"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

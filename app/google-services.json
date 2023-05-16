@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "357466661153",
+    "project_id": "gpgs-test-app-39248236",
+    "storage_bucket": "gpgs-test-app-39248236.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357466661153:android:685ce54d79a891098a1e60",
+        "android_client_info": {
+          "package_name": "com.cikup.logingoogleplayservicegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357466661153-st4idiluk54potdl7hf9149o4pcvpg80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cikup.logingoogleplayservicegame",
+            "certificate_hash": "966897e1e46ba1e659d43b5f988097f7fa8b1585"
+          }
+        },
+        {
+          "client_id": "357466661153-aigjp29ilc0fte1fkn2e8ccagvkct48o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBGqDkUVDHjCERl8oOzpxpjdaqly5lCYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357466661153-aigjp29ilc0fte1fkn2e8ccagvkct48o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
