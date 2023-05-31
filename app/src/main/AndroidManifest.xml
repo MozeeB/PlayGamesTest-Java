@@ -36,6 +36,29 @@
         <meta-data android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version"/>
 
+        <!-- Must be configured -->
+        <meta-data
+            android:name="adjust.Token"
+            android:value="kg7l0jhuem80"/>
+        <!--adjust config sandbox mode, production mode remove this or configured value
+        to 0 -->
+        <meta-data
+            android:name="adjust.Debug"
+            android:value="1"/>
+        <!-- Optional configuration begin-->
+        <!-- The following events are preset within the SDK, and will be reported
+        automatically within the sdk after configuration, optional connection-->
+        <meta-data
+            android:name="adj_login_token"
+            android:value="1qhqus" />
+        <meta-data
+            android:name="adj_complete_registration_token"
+            android:value="u0kfja" />
+        <meta-data
+            android:name="TestSendEvent"
+            android:value="xoizir" />
+        <!-- Optional configuration end-->
+
 
     </application>
 

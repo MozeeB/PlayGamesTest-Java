@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
     private  TextView playerID;
     QuickGameManager sdkInstance = QuickGameManager.getInstance();
 
+//    PackageManager pm = getPackageManager();
+//    boolean isPC = pm.hasSystemFeature("com.google.android.play.feature.HPE_EXPERIENCE");
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +42,10 @@ public class MainActivity extends AppCompatActivity {
         sdkInstance.onCreate(this);
 
         DemoSDKCallback sdkCallback = new DemoSDKCallback();
-        sdkInstance.init(this, "26192925183103095665091264346669", sdkCallback);
+        sdkInstance.init(this, "your product code here", sdkCallback);
+
+//        sdkInstance.freeLogin(this);
+        sdkInstance.trackAdjustEvent("xoizir");
 
         loginBtn = findViewById(R.id.loginBtn);
         logoutBtn = findViewById(R.id.logOutBtn);
@@ -111,8 +117,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void doLogin() {
-//        sdkInstance.login(this);
-        sdkInstance.freeLogin(this);
+        sdkInstance.login(this);
     }
 
     private void doLogout() {
